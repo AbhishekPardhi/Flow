@@ -21,7 +21,10 @@ public class LightMovement : MonoBehaviour
 
     void applyMovement() {
         float tmp_Input;
-        if(Input.GetKey(KeyCode.DownArrow)) {
+        if(Input.GetKey(KeyCode.DownArrow) && Input.GetKey(KeyCode.UpArrow)) {
+            tmp_Input = 0;
+        }
+        else if(Input.GetKey(KeyCode.DownArrow)) {
             tmp_Input = -1;
         }
         else if(Input.GetKey(KeyCode.UpArrow)) {
