@@ -8,13 +8,12 @@ public class LightTail : MonoBehaviour
 
     void Start() {
         lr = GetComponent<LineRenderer>();
-        lr.startWidth = 0.4f;
-        lr.endWidth = 0.4f;
     }
 
     void Update() {
         applyVelocity();
         destroyTail();
+        pulsating();
         lr.SetPosition(0, startPoint);
         lr.SetPosition(1, endPoint);
     }
@@ -35,5 +34,10 @@ public class LightTail : MonoBehaviour
     void destroyTail() {
         if(startPoint.x < GameManage.fixedKillDistance && endPoint.x < GameManage.fixedKillDistance)
             Destroy(gameObject);
+    }
+
+    void pulsating() {
+        lr.startWidth = GameManage.width + 0.2f;
+        lr.endWidth = GameManage.width + 0.2f;
     }
 }
