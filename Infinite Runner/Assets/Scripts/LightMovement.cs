@@ -1,4 +1,5 @@
 using UnityEngine;
+//using UnityEngine.Experimental.InputSystem;
 
 public class LightMovement : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class LightMovement : MonoBehaviour
     void Update() {
         currentLightTail.setEndPoint(transform.position);
         applyMovement();
+        //if(Input.GetButtonDown(""))
     }
 
     void applyMovement() {
