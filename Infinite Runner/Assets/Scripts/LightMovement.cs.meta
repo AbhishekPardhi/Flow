@@ -3,7 +3,9 @@ guid: a88bc44b535710442bf01c34fec98298
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - lightTailPrefab: {instanceID: 0}
+  - lightCornerPrefab: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
