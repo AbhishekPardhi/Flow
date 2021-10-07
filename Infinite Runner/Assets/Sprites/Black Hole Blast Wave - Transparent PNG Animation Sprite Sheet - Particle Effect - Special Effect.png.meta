@@ -1,0 +1,626 @@
+fileFormatVersion: 2
+guid: 711ec272ccccd1a4ba18df3bd0a08a05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5012868684520409577
+    second: BlackHole
+  - first:
+      213: 2932155015874675388
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_1
+  - first:
+      213: 7176322840100820895
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_2
+  - first:
+      213: -6512974735007197822
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_3
+  - first:
+      213: 389864969943348992
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_4
+  - first:
+      213: -8255353887397256213
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_5
+  - first:
+      213: 3203264367126484636
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_6
+  - first:
+      213: 4359793963408120700
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_7
+  - first:
+      213: 6690468745500538096
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_8
+  - first:
+      213: 4702458603000495850
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_9
+  - first:
+      213: -7297685910876421821
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_10
+  - first:
+      213: 858227590557513191
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_11
+  - first:
+      213: 1334434463510609168
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_12
+  - first:
+      213: 4605104758777817701
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_13
+  - first:
+      213: 7161918902093306382
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_14
+  - first:
+      213: 4264656154986313005
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_15
+  - first:
+      213: 4519018131561427983
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_16
+  - first:
+      213: -8882311017658466557
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_17
+  - first:
+      213: -4964271571257679387
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_18
+  - first:
+      213: -3388832583819815973
+    second: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+      Effect - Special Effect_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlackHole
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 882
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7163b71ad76be6ab0800000000000000
+      internalID: -5012868684520409577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 878
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb20793a37b11b820800000000000000
+      internalID: 2932155015874675388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_2
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 873
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f975bbde99b679360800000000000000
+      internalID: 7176322840100820895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_3
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 869
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2855dc85cf34d95a0800000000000000
+      internalID: -6512974735007197822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_4
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 865
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00777d3ef14196500800000000000000
+      internalID: 389864969943348992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 604
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3eb8ec0671f6d80800000000000000
+      internalID: -8255353887397256213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_6
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 599
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c969d3468f7447c20800000000000000
+      internalID: 3203264367126484636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_7
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 595
+        width: 91
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b55d2b289118c30800000000000000
+      internalID: 4359793963408120700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_8
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 591
+        width: 99
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4b96c50e159dc50800000000000000
+      internalID: 6690468745500538096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_9
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 586
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeef2da4f2d724140800000000000000
+      internalID: 4702458603000495850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 326
+        width: 117
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34186df245969ba90800000000000000
+      internalID: -7297685910876421821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 321
+        width: 127
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5be9f427909eb00800000000000000
+      internalID: 858227590557513191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_12
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 317
+        width: 136
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01db69d031dd48210800000000000000
+      internalID: 1334434463510609168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_13
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 312
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aa964116e98ef30800000000000000
+      internalID: 4605104758777817701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_14
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 303
+        width: 164
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a5d65cb4f346360800000000000000
+      internalID: 7161918902093306382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 37
+        width: 184
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2574278d2a1f2b30800000000000000
+      internalID: 4264656154986313005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_16
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 26
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04b4414c07c6be30800000000000000
+      internalID: 4519018131561427983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_17
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 17
+        width: 226
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fbdef9031bbb480800000000000000
+      internalID: -8882311017658466557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_18
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 6
+        width: 246
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1ad9ace4d5b1bb0800000000000000
+      internalID: -4964271571257679387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Hole Blast Wave - Transparent PNG Animation Sprite Sheet - Particle
+        Effect - Special Effect_19
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3962648b278f0d0800000000000000
+      internalID: -3388832583819815973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
