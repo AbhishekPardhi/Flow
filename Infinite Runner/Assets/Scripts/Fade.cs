@@ -7,7 +7,7 @@ public class Fade : MonoBehaviour
 {
     // Start is called before the first frame update
     public Animator fade;
-    public int buildindex;
+    private int buildindex;
     void Start()
     {
         
@@ -18,8 +18,9 @@ public class Fade : MonoBehaviour
     {
         
     }
-    public void FadeOut()
+    public void FadeOut(int levelIndex)
     {
+        buildindex = levelIndex;
         fade.SetTrigger("FadeOut");
     }
     public void Play()
