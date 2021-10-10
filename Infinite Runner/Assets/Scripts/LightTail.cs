@@ -6,6 +6,9 @@ public class LightTail : MonoBehaviour
     [SerializeField] private Vector3 startPoint;
     [SerializeField] private Vector3 endPoint;
 
+    private float alpha = 1f;
+    private float speed = 1f;
+
     void Start() {
         lr = GetComponent<LineRenderer>();
     }
@@ -14,6 +17,9 @@ public class LightTail : MonoBehaviour
         applyVelocity();
         destroyTail();
         pulsating();
+        if(GameManage.playerDeath) {
+            fadeAway();
+        }
         lr.SetPosition(0, startPoint);
         lr.SetPosition(1, endPoint);
     }
@@ -39,5 +45,13 @@ public class LightTail : MonoBehaviour
     void pulsating() {
         lr.startWidth = GameManage.width + 0.2f;
         lr.endWidth = GameManage.width + 0.2f;
+    }
+
+    void fadeAway() {
+        alpha -= Time.deltaTime * speed;
+        Color start = Color.white;
+        start.a = alpha;
+        lr.startColor = start;
+        lr.endColor = start;
     }
 }

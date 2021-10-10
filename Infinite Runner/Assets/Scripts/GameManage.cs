@@ -4,6 +4,8 @@ public class GameManage : MonoBehaviour
 {
     public static float x_Velocity = 15.0f;
     public static int fixedKillDistance = -15;
+    public static bool playerDeath = false;
+    public static int playerHealth = 100;
 
     private float m_Timer;
     [SerializeField] private Transform backBlackHole;
