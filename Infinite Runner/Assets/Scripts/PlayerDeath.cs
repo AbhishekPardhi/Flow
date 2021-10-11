@@ -38,6 +38,10 @@ public class PlayerDeath : MonoBehaviour
         else if(other.gameObject.tag == "health pack") {
             GameManage.playerHealth = GameManage.playerHealth + 10 > 100 ? 100 : GameManage.playerHealth + 10;
         }
+        else if(other.gameObject.tag == "shield pickup") {
+            Debug.Log("help");
+            GameManage.playerShield = true;
+        }
     }
 
     void Update() {

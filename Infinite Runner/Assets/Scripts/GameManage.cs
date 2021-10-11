@@ -10,7 +10,7 @@ public class GameManage : MonoBehaviour
     public static float screenRoof = 4f;
     public static float screenFloor = -4f;
 
-    public static bool playerShield = true;
+    public static bool playerShield = false;
 
     private float m_Timer;
     [SerializeField] private Transform backBlackHole;

@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2304532598863051764}
   - component: {fileID: 2304532598863051765}
-  - component: {fileID: 3343910609738206505}
-  - component: {fileID: 7872699986555208476}
+  - component: {fileID: -1106567639157576949}
+  - component: {fileID: 2304532598863051763}
   m_Layer: 0
-  m_Name: OpaqueObstacle1
-  m_TagString: opaque
+  m_Name: TranslucentObstacle2
+  m_TagString: translucent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2304532598863051767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.9614, y: 1.6985, z: 0}
-  m_LocalScale: {x: 0.81468004, y: 0.81468004, z: 1.3578}
+  m_LocalPosition: {x: 9.56, y: 1.94, z: 0}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -52,7 +52,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 045fa740178ef2d41989ff565c6c9bd1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 9b68f3d01d5b1a2418e41034717f8452, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8dad3aaab13fb254aba273b4504aaaae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3343910609738206505
+--- !u!114 &-1106567639157576949
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,12 +93,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2304532598863051767}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf42ac2d0d0c77348ab527eb6d17276b, type: 3}
+  m_Script: {fileID: 11500000, guid: 22f4be2d306673e429e671baae6bb1eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   omega: 2
-  destroyParticle: {fileID: 0}
---- !u!70 &7872699986555208476
+--- !u!70 &2304532598863051763
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,6 +110,6 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.1356424, y: -0.030825682}
-  m_Size: {x: 3.320798, y: 2.1248293}
-  m_Direction: 1
+  m_Offset: {x: -0.21368027, y: -0.07122707}
+  m_Size: {x: 3.592659, y: 7.840601}
+  m_Direction: 0
