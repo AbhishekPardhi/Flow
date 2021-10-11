@@ -7,8 +7,8 @@ public class GameManage : MonoBehaviour
     public static bool playerDeath = false;
     public static int playerHealth = 100;
 
-    public static float screenRoof = 4f;
-    public static float screenFloor = -4f;
+    public static float screenRoof = 4.5f;
+    public static float screenFloor = -4.5f;
 
     public static bool playerShield = false;
 

@@ -28,7 +28,6 @@ public class BlackholeMovement : MonoBehaviour
         if (transform.position.x < GameManage.fixedKillDistance)
         {
             Destroy(gameObject);
-            Debug.Log("destroy");
         }
     }
 
