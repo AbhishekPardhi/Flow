@@ -15,6 +15,7 @@ public class MainMenu : MonoBehaviour
     public Fade fade;
     public AudioMixer audioMixer;
     public Text highscore;
+    public Slider volume;
     void Start()
     {
         giverandomvel(play);
@@ -45,9 +46,9 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    public void VolumeControl(float volume)
+    public void VolumeControl()
     {
-        PlayerPrefs.SetFloat("Volume", volume);
+        PlayerPrefs.SetFloat("Volume", 30*(volume.value-1));
         audioMixer.SetFloat("Volume", PlayerPrefs.GetFloat("Volume", 0));
     }
     public void LowSensi()
