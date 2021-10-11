@@ -22,7 +22,7 @@ public class ScoreManager : MonoBehaviour
         if (score > PlayerPrefs.GetInt("HighScore", 0) && newhighscore==false)
         {
             newhighscore = true;
-            leanpulse.GetComponent<LeanPulse>().Pulse();
+            leanpulse.GetComponent<refe>
         }
     }
 }
