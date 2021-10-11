@@ -652,7 +652,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"f1ace063ec854b14bb9a8e737724fd21\",\"type\":3}}",
         "m_Guid": ""
     },
     "m_Modifiable": true,
@@ -720,16 +720,16 @@
     "m_Guid": {
         "m_GuidSerialized": "a9177980-6501-4ad5-ace3-4db14235b186"
     },
-    "m_Name": "Emmision",
+    "m_Name": "Emission",
     "m_DefaultReferenceName": "Texture2D_6f6035aea6804d09b87a1886d7659ec4",
-    "m_OverrideReferenceName": "_Emmision",
+    "m_OverrideReferenceName": "_Emission",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"f1ace063ec854b14bb9a8e737724fd21\",\"type\":3}}",
         "m_Guid": ""
     },
     "m_Modifiable": true,
@@ -829,7 +829,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "8b25ab3f15c84d6594e54e0552f1636e",
     "m_Id": 0,
-    "m_DisplayName": "Emmision",
+    "m_DisplayName": "Emission",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",

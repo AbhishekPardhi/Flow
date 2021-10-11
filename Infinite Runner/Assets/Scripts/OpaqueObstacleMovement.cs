@@ -11,10 +11,12 @@ public class OpaqueObstacleMovement : MonoBehaviour
     }
 
     void Update() {
-        Quaternion smallDisp = Quaternion.AngleAxis(omega, Vector3.forward);
-        transform.rotation = smallDisp * transform.rotation;
+        if(!GameManage.playerDeath) {
+            Quaternion smallDisp = Quaternion.AngleAxis(omega, Vector3.forward);
+            transform.rotation = smallDisp * transform.rotation;
 
-        transform.position += Vector3.left * GameManage.x_Velocity*Time.deltaTime;
+            transform.position += Vector3.left * GameManage.x_Velocity*Time.deltaTime;
+        }
 
         if(transform.position.x < GameManage.fixedKillDistance)
             Destroy(gameObject);

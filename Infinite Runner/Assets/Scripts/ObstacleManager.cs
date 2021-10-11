@@ -13,7 +13,8 @@ public class ObstacleManager : MonoBehaviour
     }
 
     void Update() {
-        
+        if(GameManage.playerDeath)
+            CancelInvoke("createObstacle");
     }
 
     void createObstacle() {
@@ -28,7 +29,7 @@ public class ObstacleManager : MonoBehaviour
             }
             break;
 
-            case 1: Instantiate(blackholePrefab, new Vector3(20, Random.Range(-4f, 4f), 0), Quaternion.identity);
+            case 1: Instantiate(blackholePrefab, new Vector3(20, Random.Range(-3.8f, 3.8f), 0), Quaternion.identity);
             break; 
         }
     }

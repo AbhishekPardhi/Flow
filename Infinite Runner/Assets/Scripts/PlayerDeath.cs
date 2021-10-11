@@ -19,14 +19,17 @@ public class PlayerDeath : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.tag == "blackhole") {
             GetComponent<LightMovement>().enabled = false;
+            
             blackholeCenter = other.gameObject.transform.position;
             GameManage.x_Velocity = 0;
+            GameManage.playerDeath = true;
             isSucking = true;
         }
         else if(other.gameObject.tag == "opaque") {
-            GameManage.playerDeath = true;
             GetComponent<LightMovement>().enabled = false;
+            
             GameManage.x_Velocity = 0;
+            GameManage.playerDeath = true;
             isExploding = true;
         }
         else if(other.gameObject.tag == "translucent") {
