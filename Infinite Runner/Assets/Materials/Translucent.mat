@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BlackHoleSprite
+  m_Name: Translucent
   m_Shader: {fileID: -6465566751694194690, guid: bec307d4d47198a429225f8ec2f8f522,
     type: 3}
   m_ShaderKeywords: 
@@ -25,15 +25,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emission:
-        m_Texture: {fileID: 2800000, guid: 3cff51b271baaa64286523a67d76fc2c, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Emmision:
-        m_Texture: {fileID: 2800000, guid: f1ace063ec854b14bb9a8e737724fd21, type: 3}
+        m_Texture: {fileID: 2800000, guid: df5aae78fa66d7747a18ed6718a1956b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: df5aae78fa66d7747a18ed6718a1956b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -59,8 +55,7 @@ Material:
     m_Floats:
     - _EnableExternalAlpha: 0
     m_Colors:
-    - Color_fa901d5816b5441a8acc60147b3dc631: {r: 928.90137, g: 1024, b: 931.6392,
-        a: 1}
+    - Color_fa901d5816b5441a8acc60147b3dc631: {r: 0, g: 3.441085, b: 7.129739, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}

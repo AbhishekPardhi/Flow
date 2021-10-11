@@ -7,6 +7,9 @@ TagManager:
   - blackhole
   - opaque
   - translucent
+  - health pack
+  - shield
+  - shield pickup
   layers:
   - Default
   - TransparentFX
