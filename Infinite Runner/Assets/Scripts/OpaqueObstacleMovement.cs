@@ -7,7 +7,7 @@ public class OpaqueObstacleMovement : MonoBehaviour
     [SerializeField] private float omega = 2f;
 
     void Start() {
-        omega = Random.Range(2f, 4f);
+        omega = Random.Range(0.5f, 1.5f);
     }
 
     void Update() {

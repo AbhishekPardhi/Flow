@@ -251,7 +251,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7376cfc4d374c874990221bf945e9c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  opaquePrefab: {fileID: 2304532598863051767, guid: 22fa291cd83dcc84c98f479ea6ffedf8,
+  opaquePrefab1: {fileID: 2304532598863051767, guid: 22fa291cd83dcc84c98f479ea6ffedf8,
+    type: 3}
+  opaquePrefab2: {fileID: 2304532598863051767, guid: 6761662f0faefe24d8ae8ca16f8b03ea,
+    type: 3}
+  opaquePrefab3: {fileID: 2304532598863051767, guid: b895ca58dcb911b488d9c3673d48d597,
     type: 3}
   blackholePrefab: {fileID: 6848197799808932578, guid: f90ffbcdda7abc440b44516660e01a91,
     type: 3}
@@ -15961,7 +15965,7 @@ GameObject:
   - component: {fileID: 1414247575}
   - component: {fileID: 1414247574}
   m_Layer: 0
-  m_Name: Global Volume
+  m_Name: PostProcessingVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16710,6 +16714,7 @@ GameObject:
   - component: {fileID: 1568133476}
   - component: {fileID: 1568133475}
   - component: {fileID: 1568133474}
+  - component: {fileID: 1568133477}
   m_Layer: 0
   m_Name: Stars
   m_TagString: Untagged
@@ -21504,6 +21509,18 @@ Transform:
   m_Father: {fileID: 1455317168}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &1568133477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568133473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f118fb5cd034f54e968a0ddef4e8fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1596737582
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SpriteGlowUnlit
+  m_Name: Player
   m_Shader: {fileID: -6465566751694194690, guid: bec307d4d47198a429225f8ec2f8f522,
     type: 3}
   m_ShaderKeywords: 
@@ -20,6 +20,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: f1ace063ec854b14bb9a8e737724fd21, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Emmision:
         m_Texture: {fileID: 2800000, guid: f1ace063ec854b14bb9a8e737724fd21, type: 3}
         m_Scale: {x: 1, y: 1}
