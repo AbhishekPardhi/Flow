@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 0b5a87e2f9604d04d833099eb2010c79, type: 2}
-  m_Color: {r: 1, g: 0.019365946, b: 0, a: 0.627451}
+  m_Color: {r: 0.21002735, g: 1, b: 0.16470587, a: 0.627451}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1024,7 +1024,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115920279}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.5, y: 0, z: 0}
+  m_LocalPosition: {x: -6.39, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 595601202}
@@ -1911,9 +1911,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shieldPrefab: {fileID: 4847480446541667419, guid: e9cb6a7d46fe4a247b9eb14e44448aea,
     type: 3}
-  something: {fileID: 2545679215720581070, guid: 5090ef227862eac4db3480fbddd855aa,
+  photonPrefab: {fileID: 2545679215720581070, guid: 5090ef227862eac4db3480fbddd855aa,
     type: 3}
   shieldProbability: 0.5
+  photonProbability: 0.1
 --- !u!4 &199872399
 Transform:
   m_ObjectHideFlags: 0
@@ -24756,6 +24757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backBlackHole: {fileID: 115920280}
   pShield: {fileID: 1701434181}
+  obManage: {fileID: 22437960}
   fade: {fileID: 305420975}
 --- !u!1 &1924819648
 GameObject:

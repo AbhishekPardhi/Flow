@@ -20,6 +20,8 @@ public class LightMovement : MonoBehaviour
         currentLightTail.setEndPoint(transform.position);
         applyMovement();
         applyAbilities();
+
+        
     }
 
     private void applyAbilities()
@@ -35,9 +37,13 @@ public class LightMovement : MonoBehaviour
         }
         else if(Input.GetKey(KeyCode.DownArrow)) {
             tmp_Input = -1;
+            if(transform.position.y < -4.7f)
+                tmp_Input = 0;
         }
         else if(Input.GetKey(KeyCode.UpArrow)) {
             tmp_Input = 1;
+            if(transform.position.y > 4.7f)
+                tmp_Input = 0;
         }
         else {
             tmp_Input = 0;
