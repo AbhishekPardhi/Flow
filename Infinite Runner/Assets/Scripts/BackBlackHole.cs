@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BackBlackHole : MonoBehaviour
 {
-    private float blackholeSpeed = 1f;
+    private float blackholeSpeed = 4f;
     
     void Update()
     {
