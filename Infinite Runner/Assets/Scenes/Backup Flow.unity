@@ -24756,6 +24756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backBlackHole: {fileID: 115920280}
   pShield: {fileID: 1701434181}
+  obManage: {fileID: 22437960}
   fade: {fileID: 305420975}
 --- !u!1 &1924819648
 GameObject:

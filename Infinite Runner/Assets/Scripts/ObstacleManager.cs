@@ -13,7 +13,7 @@ public class ObstacleManager : MonoBehaviour
     [SerializeField] private GameObject translucentPrefab2;
 
     void Start() {
-        InvokeRepeating("createObstacle", 2f, 0.75f);
+        InvokeRepeating("createObstacle", 2f, GameManage.spawnRate);
     }
 
     void Update() {
@@ -60,5 +60,10 @@ public class ObstacleManager : MonoBehaviour
             case 1: Instantiate(blackholePrefab, new Vector3(20, Random.Range(-3.8f, 3.8f), 0), Quaternion.identity);
             break; 
         }
+    }
+
+    public void changeDifficulty() {
+        CancelInvoke("createObstacle");
+        InvokeRepeating("createObstacle", 0f, GameManage.spawnRate);
     }
 }

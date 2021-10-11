@@ -11,7 +11,7 @@ public class BlackholeMovement : MonoBehaviour
     private Animator m_Animator;
 
     void Start() {
-        maxSpeed = Random.Range(5, 20);
+        maxSpeed = Random.Range(5, 20)*GameManage.level/3;
         m_Animator = GetComponent<Animator>();
     }
 
