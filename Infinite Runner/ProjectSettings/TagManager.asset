@@ -10,6 +10,7 @@ TagManager:
   - health pack
   - shield
   - shield pickup
+  - photon
   layers:
   - Default
   - TransparentFX

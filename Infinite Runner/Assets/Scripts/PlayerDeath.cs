@@ -43,6 +43,10 @@ public class PlayerDeath : MonoBehaviour
             Debug.Log("help");
             GameManage.playerShield = true;
         }
+
+        if(other.gameObject.tag == "photon") {
+            Destroy(other.gameObject);
+        }
     }
 
     void Update() {
