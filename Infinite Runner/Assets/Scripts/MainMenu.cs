@@ -27,7 +27,7 @@ public class MainMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        highscore.text = "" + PlayerPrefs.GetInt("HighScore", 0);
     }
     private void giverandomvel(Rigidbody2D rig)
     {
