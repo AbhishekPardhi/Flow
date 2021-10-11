@@ -3,13 +3,13 @@ using UnityEngine;
 public class LightCorner : MonoBehaviour
 {
 
-    private SpriteRenderer renderer;
+    private SpriteRenderer render;
     private float pulsate_width = 3.0f;
     private float alpha = 1f;
     private float speed = 1f;
 
     void Start() {
-        renderer = GetComponent<SpriteRenderer>();
+        render = GetComponent<SpriteRenderer>();
     }
 
     void Update() {
@@ -27,6 +27,6 @@ public class LightCorner : MonoBehaviour
         alpha -= Time.deltaTime * speed;
         Color start = Color.white;
         start.a = alpha;
-        renderer.color = start;
+        render.color = start;
     }
 }
