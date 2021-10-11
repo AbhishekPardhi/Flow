@@ -7,7 +7,11 @@ public class PlayerDeath : MonoBehaviour
 
     private bool isSucking = false;
     private bool isExploding = false;
-
+    public AudioSource source;
+    public AudioSource damage;
+    public AudioClip blackhole;
+    public AudioClip damage1;
+    public AudioClip damage2;
     private float blackholeRotationSuck = 0.7f;
     
     [SerializeField] private GameObject deathParticlePrefab;
@@ -17,35 +21,38 @@ public class PlayerDeath : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.tag == "blackhole") {
-            GetComponent<LightMovement>().enabled = false;
-            
-            blackholeCenter = other.gameObject.transform.position;
-            GameManage.x_Velocity = 0;
-            GameManage.playerDeath = true;
-            isSucking = true;
-        }
-        else if(other.gameObject.tag == "opaque") {
-            GetComponent<LightMovement>().enabled = false;
-            
-            GameManage.x_Velocity = 0;
-            GameManage.playerDeath = true;
-            isExploding = true;
-        }
-        else if(other.gameObject.tag == "translucent") {
-            GameManage.playerHealth -= 20;
-            Debug.Log(GameManage.playerHealth);
-        }
-        else if(other.gameObject.tag == "health pack") {
-            GameManage.playerHealth = GameManage.playerHealth + 10 > 100 ? 100 : GameManage.playerHealth + 10;
-        }
-        else if(other.gameObject.tag == "shield pickup") {
-            Debug.Log("help");
-            GameManage.playerShield = true;
-        }
+        if (!GameManage.playerDeath)
+        { if (other.gameObject.tag == "blackhole") {
+                GetComponent<LightMovement>().enabled = false;
 
-        if(other.gameObject.tag == "photon") {
-            Destroy(other.gameObject);
+                blackholeCenter = other.gameObject.transform.position;
+                GameManage.x_Velocity = 0;
+                GameManage.playerDeath = true;
+                isSucking = true;
+                source.clip = blackhole;
+                source.Play();
+            }
+            else if (other.gameObject.tag == "opaque") {
+                GetComponent<LightMovement>().enabled = false;
+
+                GameManage.x_Velocity = 0;
+                GameManage.playerDeath = true;
+                isExploding = true;
+            }
+            else if (other.gameObject.tag == "translucent") {
+                GameManage.playerHealth -= 20;
+                int x = Random.Range(0, 2);
+                if (x == 0) damage.clip = damage1;
+                else damage.clip = damage2;
+                damage.Play();
+            }
+            else if (other.gameObject.tag == "health pack") {
+                GameManage.playerHealth = GameManage.playerHealth + 10 > 100 ? 100 : GameManage.playerHealth + 10;
+            }
+            else if (other.gameObject.tag == "shield pickup") {
+                Debug.Log("help");
+                GameManage.playerShield = true;
+            }
         }
     }
 
