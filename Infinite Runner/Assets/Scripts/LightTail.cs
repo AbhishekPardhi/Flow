@@ -7,6 +7,7 @@ public class LightTail : MonoBehaviour
     [SerializeField] private Vector3 endPoint;
 
     private float alpha = 1f;
+    private float currAlpha = 1f;
     private float speed = 1f;
 
     void Start() {

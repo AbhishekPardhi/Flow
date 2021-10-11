@@ -1914,7 +1914,7 @@ MonoBehaviour:
   photonPrefab: {fileID: 2545679215720581070, guid: 5090ef227862eac4db3480fbddd855aa,
     type: 3}
   shieldProbability: 0.5
-  photonProbability: 0.8
+  photonProbability: 0.1
 --- !u!4 &199872399
 Transform:
   m_ObjectHideFlags: 0
