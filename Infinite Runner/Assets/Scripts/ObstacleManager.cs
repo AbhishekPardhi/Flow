@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class ObstacleManager : MonoBehaviour
 {
-    [SerializeField] private GameObject opaquePrefab;
+    [SerializeField] private GameObject opaquePrefab1;
+    [SerializeField] private GameObject opaquePrefab2;
+    [SerializeField] private GameObject opaquePrefab3;
+
     [SerializeField] private GameObject blackholePrefab;
-    [SerializeField] private GameObject translucentPrefab;
+    [SerializeField] private GameObject translucentPrefab1;
+    [SerializeField] private GameObject translucentPrefab2;
 
     void Start() {
         InvokeRepeating("createObstacle", 2f, 0.75f);
@@ -25,7 +29,31 @@ public class ObstacleManager : MonoBehaviour
             for(int i = 0; i < num; i++) {
                 pos.y = Random.Range(-4f, 4f);
                 pos.x = Random.Range(18f, 20f);
-                Instantiate(translucentPrefab, pos, Quaternion.Euler(0, 0, Random.Range(0,360)));
+                int type = Random.Range(0, 2);
+                if(type == 0) {
+                    int trType = Random.Range(0, 2);
+                    switch(trType) {
+                        case 0: Instantiate(translucentPrefab1, pos, Quaternion.Euler(0, 0, Random.Range(0,360)));
+                        break;
+
+                        case 1: Instantiate(translucentPrefab2, pos, Quaternion.Euler(0, 0, Random.Range(0,360)));
+                        break;
+                    }
+                    
+                }
+                else {
+                    int opType = Random.Range(0, 3);
+                    switch(opType) {
+                        case 0: Instantiate(opaquePrefab1, pos, Quaternion.Euler(0, 0, Random.Range(0,360)));
+                        break;
+
+                        case 1: Instantiate(opaquePrefab2, pos, Quaternion.Euler(0, 0, Random.Range(0,360)));
+                        break;
+
+                        case 2: Instantiate(opaquePrefab3, pos, Quaternion.Euler(0, 0, Random.Range(0,360)));
+                        break;
+                    }
+                }
             }
             break;
 
