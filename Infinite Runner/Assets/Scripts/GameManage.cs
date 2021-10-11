@@ -16,12 +16,27 @@ public class GameManage : MonoBehaviour
     [SerializeField] private Transform backBlackHole;
     [SerializeField] private GameObject pShield;
     public static float width = 0.0f;
-
+    public Fade fade;
+    private void Awake()
+    {
+        playerDeath = false;
+        x_Velocity = 15f;
+        playerHealth = 100;
+        playerShield = false;
+    }
     void Update() {
         pulsating();
         if(!playerDeath) {
             shield();
         }
+        if (playerDeath)
+        {
+            Invoke("GameOver", 2f);
+        }
+    }
+    public void GameOver()
+    {
+        fade.FadeOut(2);
     }
 
     void pulsating() {
