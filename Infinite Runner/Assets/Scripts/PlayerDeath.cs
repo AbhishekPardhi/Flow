@@ -12,6 +12,7 @@ public class PlayerDeath : MonoBehaviour
     public AudioClip blackhole;
     public AudioClip damage1;
     public AudioClip damage2;
+    public AudioClip destroy;
     private float blackholeRotationSuck = 0.7f;
     
     [SerializeField] private GameObject deathParticlePrefab;
@@ -38,6 +39,8 @@ public class PlayerDeath : MonoBehaviour
                 GameManage.x_Velocity = 0;
                 GameManage.playerDeath = true;
                 isExploding = true;
+                source.clip = destroy;
+                source.Play();
             }
             else if (other.gameObject.tag == "translucent") {
                 GameManage.playerHealth -= 20;

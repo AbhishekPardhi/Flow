@@ -8527,6 +8527,7 @@ MonoBehaviour:
   blackhole: {fileID: 8300000, guid: 0e1a4fa4135992d4d99322ccbbe7f103, type: 3}
   damage1: {fileID: 8300000, guid: 49325b1334432dc49bed227842164003, type: 3}
   damage2: {fileID: 8300000, guid: 49325b1334432dc49bed227842164003, type: 3}
+  destroy: {fileID: 8300000, guid: 7816d974f95de854ca294348d6b6221e, type: 3}
   deathParticlePrefab: {fileID: 7894816227598741678, guid: 5904550cfa2a2f54f97f854799507919,
     type: 3}
 --- !u!50 &592511902
