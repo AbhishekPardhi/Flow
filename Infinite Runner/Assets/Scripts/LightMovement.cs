@@ -20,7 +20,6 @@ public class LightMovement : MonoBehaviour
         currentLightTail.setEndPoint(transform.position);
         applyMovement();
         applyAbilities();
-        //if(Input.GetButtonDown(""))
     }
 
     private void applyAbilities()
