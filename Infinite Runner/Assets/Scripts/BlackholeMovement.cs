@@ -25,8 +25,11 @@ public class BlackholeMovement : MonoBehaviour
            m_Animator.SetFloat("animSpeed", 0);
         }
 
-        if(transform.position.x < GameManage.fixedKillDistance)
+        if (transform.position.x < GameManage.fixedKillDistance)
+        {
             Destroy(gameObject);
+            Debug.Log("destroy");
+        }
     }
 
     void oscillate() {

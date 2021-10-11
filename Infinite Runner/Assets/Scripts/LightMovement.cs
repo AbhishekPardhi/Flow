@@ -1,9 +1,9 @@
+using System;
 using UnityEngine;
-//using UnityEngine.Experimental.InputSystem;
-
 public class LightMovement : MonoBehaviour
 {
     private float y_Input = 0.0f;
+    public Background background;
     
     [SerializeField] private float angle_D = 45f;
     [SerializeField] GameObject lightTailPrefab;
@@ -14,11 +14,18 @@ public class LightMovement : MonoBehaviour
     void Start() {
         currentLightTail = Instantiate(lightTailPrefab, transform.position, Quaternion.identity).GetComponent<LightTail>();
         currentLightTail.setStartPoint(transform.position - new Vector3(15, 0, 0));
+        background = FindObjectOfType<Background>();
     }
     void Update() {
         currentLightTail.setEndPoint(transform.position);
         applyMovement();
-        //if(Input.GetButtonDown(""))
+        applyAbilities();
+    }
+
+    private void applyAbilities()
+    {
+        if (Input.GetKey(KeyCode.A)) background.bg.SetBool("Close", true);
+        else if (Input.GetKey(KeyCode.B)) background.bg.SetBool("Close", false);
     }
 
     void applyMovement() {
