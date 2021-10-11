@@ -32,6 +32,7 @@ public class PlayerDeath : MonoBehaviour
                 isSucking = true;
                 source.clip = blackhole;
                 source.Play();
+                GameManage.playerHealth = 0;
             }
             else if (other.gameObject.tag == "opaque") {
                 GetComponent<LightMovement>().enabled = false;
@@ -41,6 +42,7 @@ public class PlayerDeath : MonoBehaviour
                 isExploding = true;
                 source.clip = destroy;
                 source.Play();
+                GameManage.playerHealth = 0;
             }
             else if (other.gameObject.tag == "translucent") {
                 GameManage.playerHealth -= 20;

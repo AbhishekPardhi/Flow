@@ -52,4 +52,5 @@ public class IGOptions : MonoBehaviour
         asource.clip = t2;
         Invoke(nameof(changeToT1), asource.clip.length);
     }
+
 }
