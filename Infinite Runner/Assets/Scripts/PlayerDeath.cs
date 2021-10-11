@@ -7,7 +7,8 @@ public class PlayerDeath : MonoBehaviour
 
     private bool isSucking = false;
     private bool isExploding = false;
-
+    public AudioSource source;
+    public AudioClip blackhole;
     private float blackholeRotationSuck = 0.7f;
     
     [SerializeField] private GameObject deathParticlePrefab;
@@ -24,6 +25,8 @@ public class PlayerDeath : MonoBehaviour
             GameManage.x_Velocity = 0;
             GameManage.playerDeath = true;
             isSucking = true;
+            source.clip = blackhole;
+            source.Play();
         }
         else if(other.gameObject.tag == "opaque") {
             GetComponent<LightMovement>().enabled = false;

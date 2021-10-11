@@ -8394,6 +8394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 948e918e645e62f45a21fd6854779de7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  source: {fileID: 2105789266}
+  blackhole: {fileID: 8300000, guid: 0e1a4fa4135992d4d99322ccbbe7f103, type: 3}
   deathParticlePrefab: {fileID: 7894816227598741678, guid: 5904550cfa2a2f54f97f854799507919,
     type: 3}
 --- !u!50 &592511902
