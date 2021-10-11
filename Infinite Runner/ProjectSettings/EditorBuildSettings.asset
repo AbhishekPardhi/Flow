@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 70603cf54ce644b44bea0c19b61863d2
   - enabled: 1
-    path: Assets/Scenes/Play.unity
-    guid: f270d6cc5b8482f48ad7afd1c94da01f
+    path: Assets/Scenes/Backup Flow.unity
+    guid: ea130e9f7f8f5b64eadcdb34c60768c4
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 62cc208e694e5d645848579643030075
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 35370b610ca247048981f334399308fb,
       type: 2}
