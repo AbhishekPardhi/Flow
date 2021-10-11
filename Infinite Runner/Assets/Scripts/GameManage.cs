@@ -7,14 +7,15 @@ public class GameManage : MonoBehaviour
     public static bool playerDeath = false;
     public static int playerHealth = 100;
 
+    public static float screenRoof = 4f;
+    public static float screenFloor = -4f;
+
     private float m_Timer;
     [SerializeField] private Transform backBlackHole;
     public static float width = 0.0f;
 
     void Update() {
         pulsating();
-
-        //backBlackHole.position += Vector3.right * 0.2f * Time.deltaTime;
     }
 
     void pulsating() {
