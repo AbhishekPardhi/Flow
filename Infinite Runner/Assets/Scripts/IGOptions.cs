@@ -22,7 +22,7 @@ public class IGOptions : MonoBehaviour
     }
     public void MainMenu()
     {
-
+        fade.FadeOut(0);
     }
     public void Quit()
     {

@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
     public Rigidbody2D quit;
     public float x=1f;
     public float y = 1f;
-
+    public Fade fade;
     void Start()
     {
         giverandomvel(play);
@@ -32,6 +32,12 @@ public class MainMenu : MonoBehaviour
         rig.velocity = vel * vec;
         rig.angularVelocity = y * vel;
     }
-
-
+    public void Play()
+    {
+        fade.FadeOut(1);
+    }
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

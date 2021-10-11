@@ -20,6 +20,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Emission:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Emmision:
         m_Texture: {fileID: 2800000, guid: f1ace063ec854b14bb9a8e737724fd21, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -42,6 +46,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - Color_fa901d5816b5441a8acc60147b3dc631: {r: 2.9960785, g: 2.9960785, b: 2.9960785,
+    - Color_fa901d5816b5441a8acc60147b3dc631: {r: 3.6862745, g: 3.6862745, b: 3.6862745,
         a: 0}
   m_BuildTextureStacks: []
