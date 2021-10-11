@@ -57,6 +57,7 @@ public class PlayerDeath : MonoBehaviour
             else if(other.gameObject.tag == "photon") {
                 GameManage.playerHealth = GameManage.playerHealth + 10 > 100 ? 100 : GameManage.playerHealth + 10;
                 Destroy(other.gameObject);
+                
             }
         }
     }

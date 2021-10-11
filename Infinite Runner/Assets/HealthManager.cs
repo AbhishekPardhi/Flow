@@ -14,6 +14,6 @@ public class HealthManager : MonoBehaviour
     void Update()
     {
         Debug.Log(transform.position);
-        transform.position =new Vector3(-3.2f + GameManage.playerHealth / 100,4f,0f);
+        transform.position =new Vector3(-3.65f + GameManage.playerHealth*1.5f / 100.0f,4f,0f);
     }
 }
