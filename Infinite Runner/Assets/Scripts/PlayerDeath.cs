@@ -69,6 +69,12 @@ public class PlayerDeath : MonoBehaviour
         else if(isExploding) {
             opaqueDeath();
         }
+        if(GameManage.playerDeath)
+        {
+            source.pitch = 1f;
+            damage.pitch = 1f;
+            Time.timeScale = 1f;
+        }
     }
 
     void blackHoleDeath() {
@@ -99,5 +105,15 @@ public class PlayerDeath : MonoBehaviour
     void opaqueDeath() {
         Instantiate(deathParticlePrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);
+    }
+    public void Pause()
+    {
+        source.pitch = 0.5f;
+        damage.pitch = 0.5f;
+    }
+    public void Play()
+    {
+        source.pitch = 1f;
+        damage.pitch = 1f;
     }
 }

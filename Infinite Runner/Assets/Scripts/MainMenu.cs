@@ -23,6 +23,7 @@ public class MainMenu : MonoBehaviour
         giverandomvel(quit);
         audioMixer.SetFloat("Volume", PlayerPrefs.GetFloat("Volume", 0));
         highscore.text = "" + PlayerPrefs.GetInt("HighScore", 0);
+        volume.value = PlayerPrefs.GetFloat("Volume", 0) / 30f + 1f;
     }
 
     // Update is called once per frame
@@ -48,7 +49,7 @@ public class MainMenu : MonoBehaviour
     }
     public void VolumeControl()
     {
-        PlayerPrefs.SetFloat("Volume", 30*(volume.value-1));
+        PlayerPrefs.SetFloat("Volume", 30*(volume.value-1f));
         audioMixer.SetFloat("Volume", PlayerPrefs.GetFloat("Volume", 0));
     }
     public void LowSensi()
@@ -66,5 +67,9 @@ public class MainMenu : MonoBehaviour
     public void DeleteHighScore()
     {
         PlayerPrefs.SetInt("HighScore", 0);
+    }
+    public void AbhishekURL()
+    {
+        Application.OpenURL("https://abhishek-pardhi.itch.io/");
     }
 }

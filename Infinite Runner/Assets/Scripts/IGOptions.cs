@@ -20,7 +20,11 @@ public class IGOptions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(GameManage.playerDeath)
+        {
+            asource.pitch = 1f;
+            Time.timeScale = 1f;
+        }
     }
     public void Restart()
     {
@@ -52,5 +56,14 @@ public class IGOptions : MonoBehaviour
         asource.clip = t2;
         Invoke(nameof(changeToT1), asource.clip.length);
     }
-
+    public void Pause()
+    {
+        Time.timeScale = 0.1f;
+        asource.pitch = 0.5f;
+    }
+    public void Play()
+    {
+        Time.timeScale = 1f;
+        asource.pitch = 1f;
+    }
 }
